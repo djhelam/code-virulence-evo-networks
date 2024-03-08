@@ -14,6 +14,8 @@ There are two folders:
 
 1. cpp_codes: this contains the C++ code host_parasite_network.cpp for the individual-based model of host-parasite evolution in networks, an input file input.txt corresponding to one of the scenarios explored and a Makefile.
 
-2.generate_adjacency_matrices: this contains R-scripts used to generate all adjacency matrices for the networks: RGG, OCN, circle, grid, modular, spiky. 
+2. cpp_codes_shuffled_simulations: this contains the C++ code to run simulations in which parasite genotypes are re-shuffled in each generation to break kin structure. This is done to test the role of kin selction in dribing virulence evolution.
+
+3.generate_adjacency_matrices: this contains R-scripts used to generate all adjacency matrices for the networks: RGG, OCN, circle, grid, modular, spiky. 
 
 
